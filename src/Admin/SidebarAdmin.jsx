@@ -28,7 +28,7 @@ const SidebarAdmin = () => {
           <ul className='space-y-4'>
             <li className='hover:bg-gray-700 px-6 py-3 cursor-pointer transition-all duration-200 flex items-center'>
               <Home className='mr-3' />
-              <Link to="/admin/home">Home</Link>
+              <Link to="/admin">Home</Link>
             </li>
 
             <li className='hover:bg-gray-700 px-6 py-3 cursor-pointer transition-all duration-200 flex items-center'>
