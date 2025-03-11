@@ -59,7 +59,11 @@ const HomeAdmin = () => {
             style={{ minWidth: "16rem", minHeight: "20rem" }}
           >
             <img
-              src={item?.coverImage}
+              rc={
+                item?.coverImage
+                  ? item.coverImage
+                  : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-photo%2Fclose-up-microphone-recording-studio-with-singer-singing-background_19805581.htm&psig=AOvVaw1eKNPsnr68Ai1WDyHRNvA-&ust=1741798354028000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLjy7tW-gowDFQAAAAAdAAAAABAJ"
+              }
               alt={item?.title}
               className="h-40 w-full object-cover rounded-md mb-4"
             />
