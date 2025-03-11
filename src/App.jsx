@@ -13,7 +13,9 @@ const App = () => {
       <div className="flex min-h-screen">
         <div className="md:w-64 bg-gray-800 text-white flex-none">
           <SidebarAdmin />
+         
         </div>
+        <HomeAdmin />
 
         <div className="flex-1 p-6 bg-gray-100 overflow-y-auto">
           <Routes>
